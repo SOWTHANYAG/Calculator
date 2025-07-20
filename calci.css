@@ -1,0 +1,64 @@
+body{
+    margin: 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color:ivory;
+    height: 100vh;
+
+}
+form{
+    background-color:lightpink;
+    border: 5px solid black;
+    border-radius: 10px;
+}
+h1{
+    text-align: center;
+    color: rgb(201, 86, 86);
+}
+#display{
+  
+  
+    margin: 15px;
+   
+    padding: 15px;
+   
+  
+    box-sizing: border-box;
+    text-align: right;
+    
+    
+}
+.button{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 1px;
+    background-color:lavender;
+}
+.Calculator input[type="button"]{
+    border-radius: 5px;
+    margin: 2px;
+    padding: 10px;
+  width: 50px;  
+
+}
+.phase1{
+    padding: 2px;
+}
+.phase2{
+    padding: 7px;
+}
+.phase3{
+    padding: 7px;
+}
+.phase4{
+    padding: 7px;
+}
+.Calculator input[value="AC"]{
+    padding: 10px;
+    width: 225px; 
+    text-align: center;   
+    background-color: rgb(215, 210, 210);
+}
